@@ -1,0 +1,11 @@
+name: 02-event-blocks
+
+on: push
+
+jobs:
+    echo:
+        runs-on: ubuntu-Latest
+        steps:
+            - name: print event
+              run: |
+               echo "event is ${{github.event_name}}"
