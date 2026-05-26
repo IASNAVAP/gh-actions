@@ -8,8 +8,7 @@ jobs:
       steps: 
         - name: print name
           run: |
-            echo "hello world"
-            echo "this is my first github action"
+           echo "test cases are passed"
 
 
       
